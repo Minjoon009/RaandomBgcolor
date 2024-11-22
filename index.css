@@ -1,0 +1,45 @@
+.container{
+    width: 25rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: rgb(20, 121, 155);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 1.5rem;
+}
+
+.colorcode{
+    border: solid white 1px;
+    width: fit-content;
+    padding: 0px 7px 0px 7px;
+    margin: 4rem auto 4rem auto;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+}
+.counter-div>*{
+    margin-bottom: 2rem;
+
+}
+hr{
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+}
+.count{
+    font-size: 4rem;
+}
+#btnGenerate{
+    background-color: rgb(255, 254, 194);
+    width: 11rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
