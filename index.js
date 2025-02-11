@@ -1,7 +1,13 @@
 var colorhex=document.querySelector(".colorcode");
 var bgcolor=document.querySelector("body");
 function colorchange(){
-  var colorcode= Math.random().toString(16).substring(2,8);
-  bgcolor.style.backgroundColor="#"+colorcode;
-  colorhex.innerText="#"+colorcode;
+  var r = Math.floor(Math.random() * 256);
+var g = Math.floor(Math.random() * 256);
+var b = Math.floor(Math.random() * 256);
+
+// Set the background color using RGB format
+bgcolor.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+
+// Display the RGB value as text
+colorhex.innerText = `rgb(${r}, ${g}, ${b})`;
 }
